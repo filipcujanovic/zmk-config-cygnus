@@ -1,0 +1,7 @@
+#!/bin/bash
+
+keymap parse -z config/cygnus.keymap >docs/keymap.yaml
+sed -i '' 's/cygnus/corne/g' docs/keymap.yaml
+keymap --config docs/keymap-config.yaml draw docs/keymap.yaml >docs/keymap.svg
+
+git add docs/keymap.yaml docs/keymap.svg

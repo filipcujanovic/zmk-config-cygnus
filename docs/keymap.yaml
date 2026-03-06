@@ -1,0 +1,249 @@
+layout: {zmk_keyboard: corne}
+layers:
+  default_macos: ['', Q, W, E, R, T, Y, U, I, O, P, '', '', A, S, D, F, G, H, J, K, L, ;, '', '', Z, X, C, V, B, N, M, ',', ., /, '', '', '&dls_macos', ENTER, SPC,
+    navigation_macos, '']
+  default_linux: ['', Q, W, E, R, T, Y, U, I, O, P, '', '', A, S, D, F, G, H, J, K, L, ;, '', '', Z, X, C, V, B, N, M, ',', ., /, '', '', '&dls_linux', ENTER, SPC,
+    navigation_linux, '']
+  symbol:
+  - ''
+  - '`'
+  - <
+  - '>'
+  - _
+  - '?'
+  - '"'
+  - '~'
+  - '|'
+  - ''
+  - ''
+  - ''
+  - ''
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - ''
+  - ''
+  - '='
+  - '-'
+  - +
+  - '{'
+  - '}'
+  - '['
+  - ']'
+  - ''''
+  - ':'
+  - \
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  navigation_macos:
+  - ''
+  - adjust
+  - ''
+  - ''
+  - ''
+  - ''
+  - PREVIOUS
+  - VOLUME DOWN
+  - VOLUME UP
+  - NEXT
+  - PLAY PAUSE
+  - ''
+  - ''
+  - '&isk LCTRL'
+  - '&isk LALT'
+  - '&isk LGUI'
+  - {t: LSHIFT, h: sticky}
+  - TAB
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - Alt+BSPC
+  - ''
+  - ''
+  - Gui+Z
+  - Gui+X
+  - Gui+C
+  - Gui+V
+  - ''
+  - ''
+  - BRIGHTNESS DEC
+  - BRIGHTNESS INC
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - ''
+  navigation_linux:
+  - ''
+  - adjust
+  - ''
+  - ''
+  - ''
+  - ''
+  - PREVIOUS
+  - VOLUME DOWN
+  - VOLUME UP
+  - NEXT
+  - PLAY PAUSE
+  - ''
+  - ''
+  - '&isk LCTRL'
+  - '&isk LALT'
+  - '&isk LGUI'
+  - {t: LSHIFT, h: sticky}
+  - TAB
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - Ctl+BSPC
+  - ''
+  - ''
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - ''
+  - ''
+  - BRIGHTNESS DEC
+  - BRIGHTNESS INC
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - ''
+  numbers:
+  - ''
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - ''
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - ''
+  - F11
+  - F12
+  - F13
+  - F13
+  - F14
+  - F15
+  - F16
+  - F17
+  - F18
+  - F19
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - ''
+  adjust:
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - '&bootloader'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - ''
+combos:
+- p: [12, 13]
+  k: ''''
+  l: [default_macos, default_linux, symbol, navigation_macos, navigation_linux, numbers, adjust]
+- p: [2, 3]
+  k: ESC
+  l: [default_macos, default_linux, symbol, navigation_macos, navigation_linux, numbers, adjust]
+- p: [20, 29]
+  k: '&caps_word'
+  l: [default_macos, default_linux, symbol, navigation_macos, navigation_linux, numbers, adjust]
+- p: [6, 7]
+  k: BSPC
+  l: [default_macos, default_linux, symbol, navigation_macos, navigation_linux, numbers, adjust]
+- p: [10, 19]
+  k: {t: default_linux, h: toggle}
+  l: [default_macos, default_linux]
+- p: [10, 11]
+  k: Ctl+S
+  l: [default_macos, default_linux]
+- p: [11, 12]
+  k: Alt+S
+  l: [default_macos, default_linux]
+- p: [22, 23]
+  k: Gui+Sft+4
+  l: [default_macos]
+- p: [23, 24]
+  k: Gui+Sft+5
+  l: [default_macos]
