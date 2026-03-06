@@ -220,30 +220,30 @@ layers:
   - {type: held}
   - ''
 combos:
-- p: [12, 13]
+- p: [15, 16]
   k: ''''
   l: [default_macos, default_linux, symbol, navigation_macos, navigation_linux, numbers, adjust]
-- p: [2, 3]
+- p: [3, 4]
   k: ESC
   l: [default_macos, default_linux, symbol, navigation_macos, navigation_linux, numbers, adjust]
-- p: [20, 29]
+- p: [25, 34]
   k: '&caps_word'
   l: [default_macos, default_linux, symbol, navigation_macos, navigation_linux, numbers, adjust]
-- p: [6, 7]
+- p: [7, 8]
   k: BSPC
   l: [default_macos, default_linux, symbol, navigation_macos, navigation_linux, numbers, adjust]
-- p: [10, 19]
+- p: [13, 22]
   k: {t: default_linux, h: toggle}
   l: [default_macos, default_linux]
-- p: [10, 11]
+- p: [13, 14]
   k: Ctl+S
   l: [default_macos, default_linux]
-- p: [11, 12]
+- p: [14, 15]
   k: Alt+S
   l: [default_macos, default_linux]
-- p: [22, 23]
+- p: [26, 27]
   k: Gui+Sft+4
   l: [default_macos]
-- p: [23, 24]
+- p: [27, 28]
   k: Gui+Sft+5
   l: [default_macos]
