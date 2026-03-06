@@ -76,22 +76,15 @@ combo_##NAME { \
         COMBO(screen_shot_capture, &kp LG(LS(N4)), 22 23, DEFAULT_TIMEOUT, DEFAULT_MACOS)
         COMBO(screen_shot_capture_settings, &kp LG(LS(N5)), 23 24, DEFAULT_TIMEOUT, DEFAULT_MACOS)
     };
-// ______________________________  ____________________________
-// |  0  |   1 |  2  |  3  |  4  \/   5 |   6 |  7 |  8 |   9 |
-// | 10  |  11 | 12  | 13  | 14  /\  15 |  16 | 17 | 18 |  19 |
-// | 20  |  21 | 22  | 23  | 24 /  \ 25 |  26 | 27 | 28 |  29 |
-//                   | 30  | 31/    \32 |  33 |
-//                       ------      ------
-
     keymap {
         compatible = "zmk,keymap";
 
         default_macos_layer {
             bindings = <
-              &none  &kp Q &kp W &kp E &kp R       &kp T          &kp Y   &kp U &kp I     &kp O   &kp P &none
-              &none  &kp A &kp S &kp D &kp F       &kp G          &kp H   &kp J &kp K     &kp L   &kp SEMI &none
-              &none  &kp Z &kp X &kp C &kp V       &kp B          &kp N   &kp M &kp COMMA &kp DOT &kp SLASH &none
-                       &none      &dls_macos  &kp ENTER      &kp SPC &mo NAVIGATION_MACOS &none
+              &kp N1 &kp Q &kp W &kp E &kp R       &kp T          &kp Y   &kp U &kp I     &kp O   &kp P &kp N4
+              &kp N2  &kp A &kp S &kp D &kp F       &kp G          &kp H   &kp J &kp K     &kp L   &kp SEMI &kp N5
+              &kp N3  &kp Z &kp X &kp C &kp V       &kp B          &kp N   &kp M &kp COMMA &kp DOT &kp SLASH &kp N6
+                       &kp N7      &kp N9  &kp ENTER      &kp SPC &kp N0 &kp N8
             >;
         };
 
