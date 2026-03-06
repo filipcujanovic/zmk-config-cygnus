@@ -4,7 +4,7 @@ layers:
     navigation_macos, '']
   default_linux: ['', Q, W, E, R, T, Y, U, I, O, P, '', '', A, S, D, F, G, H, J, K, L, ;, '', '', Z, X, C, V, B, N, M, ',', ., /, '', '', '&dls_linux', ENTER, SPC,
     navigation_linux, '']
-  symbol:
+  symbols:
   - ''
   - '`'
   - <
@@ -222,16 +222,16 @@ layers:
 combos:
 - p: [15, 16]
   k: ''''
-  l: [default_macos, default_linux, symbol, navigation_macos, navigation_linux, numbers, adjust]
+  l: [default_macos, default_linux, symbols, navigation_macos, navigation_linux, numbers, adjust]
 - p: [3, 4]
   k: ESC
-  l: [default_macos, default_linux, symbol, navigation_macos, navigation_linux, numbers, adjust]
+  l: [default_macos, default_linux, symbols, navigation_macos, navigation_linux, numbers, adjust]
 - p: [25, 34]
   k: '&caps_word'
-  l: [default_macos, default_linux, symbol, navigation_macos, navigation_linux, numbers, adjust]
+  l: [default_macos, default_linux, symbols, navigation_macos, navigation_linux, numbers, adjust]
 - p: [7, 8]
   k: BSPC
-  l: [default_macos, default_linux, symbol, navigation_macos, navigation_linux, numbers, adjust]
+  l: [default_macos, default_linux, symbols, navigation_macos, navigation_linux, numbers, adjust]
 - p: [13, 22]
   k: {t: default_linux, h: toggle}
   l: [default_macos, default_linux]

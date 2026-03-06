@@ -105,7 +105,7 @@ combo_##NAME { \
             >;
         };
 
-        symbol_layer {
+        symbols_layer {
             bindings = <
              &none   &kp GRAVE &kp LT    &kp GT   &kp UNDER   &kp QMARK         &kp DQT   &kp TILDE &kp PIPE       &none    &none &none
              &none   &kp EXCL  &kp AT    &kp HASH &kp DLLR &kp PRCNT            &kp CARET &kp AMPS &kp ASTERISK &kp LPAR  &kp RPAR &none
